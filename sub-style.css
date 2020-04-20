@@ -8,10 +8,12 @@ h1 {
   color: rgb(9, 136, 153);
 }
 
-h2 {
+h2,
+h4 {
   font-weight: 300;
   color: rgb(138, 136, 136);
 }
+
 
 
 /* ---------TOP SECTION------------- */
@@ -44,6 +46,7 @@ h2 {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  text-align: center;
   line-height: 145%;
   font-weight: 300;
   font-size: 120% ;
@@ -54,6 +57,24 @@ h2 {
   margin-bottom: 10px;
 }
 
+.doc-info {
+  line-height: 145%;
+  font-weight: 300;
+  font-size: 110% ;
+}
+
+
+
+/* ---------BOTTOM SECTION--------------- */
+.footer {
+  background-color: rgba(245, 241, 241, 0.418);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+}
+
+/* ---------MOBILE RESPONSIVE--------------- */
 @media only screen and (max-width: 600px) {
   .grid-container {
     display: grid;
@@ -61,5 +82,6 @@ h2 {
     line-height: 145%;
     font-weight: 300;
     font-size: 120%;
+    text-align: left;
   }
 }
