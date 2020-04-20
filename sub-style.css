@@ -8,20 +8,58 @@ h1 {
   color: rgb(9, 136, 153);
 }
 
+h2 {
+  font-weight: 300;
+  color: rgb(138, 136, 136);
+}
+
 
 /* ---------TOP SECTION------------- */
-header {
-  margin: 40px 15%;
-}
 
 .main-title {
   text-align: center;
   position: inline-block;
+  margin: 40px 1%;
  
+}
+
+.name-title {
+  margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 .title-img {
   width: 150px;
   height: auto;
-  
+ 
+}
+
+/* ---------MIDDLE SECTION----------- */
+.insurance-title {
+  position: inline-block;
+  text-align: center;
+  margin: 50px 25%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  line-height: 145%;
+  font-weight: 300;
+  font-size: 120% ;
+  margin: auto 15%;
+}
+
+.grid-item {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    line-height: 145%;
+    font-weight: 300;
+    font-size: 120%;
+  }
 }
