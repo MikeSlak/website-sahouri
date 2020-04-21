@@ -1,3 +1,5 @@
+/* --------ALL PAGES------------------ */
+
 body {
   font-family: 'Lato', 'Arial', sans-serif;
 }
@@ -14,9 +16,11 @@ h4 {
   color: rgb(138, 136, 136);
 }
 
-
-
-/* ---------TOP SECTION------------- */
+p {
+  line-height: 145%;
+  font-weight: 300;
+  font-size: 120% ;
+}
 
 .main-title {
   text-align: center;
@@ -36,7 +40,16 @@ h4 {
  
 }
 
-/* ---------MIDDLE SECTION----------- */
+.footer {
+  background-color: rgba(245, 241, 241, 0.418);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+}
+
+
+/* ---------INSURANCE PAGE----------- */
 .insurance-title {
   position: inline-block;
   text-align: center;
@@ -57,6 +70,8 @@ h4 {
   margin-bottom: 10px;
 }
 
+
+/* -----------PHYSICIAN PAGE-------------- */
 .doc-info {
   line-height: 145%;
   font-weight: 300;
@@ -64,15 +79,16 @@ h4 {
 }
 
 
-
-/* ---------BOTTOM SECTION--------------- */
-.footer {
-  background-color: rgba(245, 241, 241, 0.418);
+/* ----------FORM PAGE------------ */
+.form-info {
+  margin: 30px 15%;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 25px;
 }
+
+.forms {
+  margin: 0 10%;
+}
+
 
 /* ---------MOBILE RESPONSIVE--------------- */
 @media only screen and (max-width: 600px) {
@@ -83,5 +99,9 @@ h4 {
     font-weight: 300;
     font-size: 120%;
     text-align: left;
+  }
+  .form-info {
+    text-align: left;
+    margin: 30px 15%;
   }
 }
