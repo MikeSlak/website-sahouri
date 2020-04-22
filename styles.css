@@ -137,5 +137,14 @@
    padding-bottom: 15px;
  }
 
+/* -----------MOBILE RESPONSIVE--------------- */
+@media only screen and (max-width: 600px) {
 
- 
+ header {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)), url(img/building.png);
+   background-size: cover;
+   background-position: center;
+   /* height: 100vh; */
+   color: #ffffff;
+ }
+}
